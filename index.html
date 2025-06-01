@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!DOCTYPE html><html lang="ja">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>プライバシーポリシー | 猫bot（Discord）</title>
+  <title>プライバシーポリシー | 猫bot</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     body {
       font-family: 'Noto Sans JP', sans-serif;
@@ -12,124 +12,115 @@
       color: #333;
       margin: 0;
       padding: 0;
-    }
+    }header {
+  background: linear-gradient(135deg, #ffe5ec, #ffdfe7);
+  text-align: center;
+  padding: 3em 1em;
+}
 
-    header {
-      background: linear-gradient(135deg, #ffe5ec, #ffdfe7);
-      text-align: center;
-      padding: 3em 1em;
-    }
+header i.fa-cat {
+  font-size: 3em;
+  color: #c2185b;
+  margin-bottom: 0.5em;
+}
 
-    header img.logo {
-      width: 80px;
-      margin-bottom: 1em;
-    }
+header h1 {
+  font-size: 2.2em;
+  color: #c2185b;
+}
 
-    header h1 {
-      font-size: 2.2em;
-      color: #c2185b;
-    }
+main {
+  max-width: 740px;
+  margin: 2em auto;
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 1.5em;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
 
-    main {
-      max-width: 740px;
-      margin: 2em auto;
-      background-color: #fff;
-      padding: 2em;
-      border-radius: 1.5em;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-    }
+.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #e91e63;
+  margin-bottom: 0.5em;
+}
 
-    .section-title {
-      display: flex;
-      align-items: center;
-      font-size: 1.3em;
-      font-weight: bold;
-      color: #e91e63;
-      margin-bottom: 0.5em;
-    }
+.section-title i {
+  font-size: 1.3em;
+  margin-right: 0.6em;
+}
 
-    .section-title img {
-      width: 28px;
-      height: 28px;
-      margin-right: 0.6em;
-    }
+p, ul {
+  font-size: 1em;
+  line-height: 1.7;
+  margin: 0.5em 0;
+}
 
-    p, ul {
-      font-size: 1em;
-      line-height: 1.7;
-      margin: 0.5em 0;
-    }
+ul {
+  padding-left: 1.5em;
+}
 
-    ul {
-      padding-left: 1.5em;
-    }
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #999;
+  margin: 3em 0 1em;
+}
 
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #999;
-      margin: 3em 0 1em;
-    }
+@media (max-width: 600px) {
+  main {
+    margin: 1em;
+    padding: 1.5em;
+  }
+}
 
-    @media (max-width: 600px) {
-      main {
-        margin: 1em;
-        padding: 1.5em;
-      }
-    }
   </style>
 </head>
-<body>
-
-  <header>
-    <img src="https://img.icons8.com/ios-filled/100/cat.png" alt="猫アイコン" class="logo" />
+<body>  <header>
+    <i class="fas fa-cat"></i>
     <h1>猫bot プライバシーポリシー</h1>
-  </header>
-
-  <main>
+  </header>  <main>
     <section>
       <div class="section-title">
-        <img src="https://img.icons8.com/ios-glyphs/30/heart-cat.png" alt="プライバシーアイコン" />
+        <i class="fas fa-shield-alt"></i>
         <span>基本方針</span>
       </div>
       <p>本Bot「猫bot」は、Discord上で動作する非営利の娯楽・癒し用Botです。ユーザーの皆様からの個人情報の収集や保存は一切行っておりません。</p>
-    </section>
+    </section><section>
+  <div class="section-title">
+    <i class="fas fa-ban"></i>
+    <span>Botが取得しない情報</span>
+  </div>
+  <p>猫botは以下の情報を取得・保持いたしません：</p>
+  <ul>
+    <li>ユーザー名、タグ、ID</li>
+    <li>メッセージの内容</li>
+    <li>サーバー名やチャンネル名</li>
+  </ul>
+</section>
 
-    <section>
-      <div class="section-title">
-        <img src="https://img.icons8.com/ios/30/no-data.png" alt="データ収集なし" />
-        <span>Botが取得しない情報</span>
-      </div>
-      <p>猫botは以下の情報を取得・保持いたしません：</p>
-      <ul>
-        <li>ユーザー名、タグ、ID</li>
-        <li>メッセージの内容</li>
-        <li>サーバー名やチャンネル名</li>
-      </ul>
-    </section>
+<section>
+  <div class="section-title">
+    <i class="fas fa-robot"></i>
+    <span>Botの動作について</span>
+  </div>
+  <p>猫botは、ユーザーがコマンドを送信した場合にのみ、返信を行います。ユーザーの操作ログや履歴はBot内部に保存されず、Botの稼働目的はあくまで猫の情報等の提供に限定されております。</p>
+</section>
 
-    <section>
-      <div class="section-title">
-        <img src="https://img.icons8.com/ios/30/robot.png" alt="Bot動作" />
-        <span>Botの動作について</span>
-      </div>
-      <p>猫botは、ユーザーがコマンドを送信した場合にのみ、返信を行います。ユーザーの操作ログや履歴はBot内部に保存されず、Botの稼働目的はあくまで猫に関する事の提供に限定されております。</p>
-    </section>
+<section>
+  <div class="section-title">
+    <i class="fas fa-user-shield"></i>
+    <span>セキュリティと継続的改善</span>
+  </div>
+  <p>ユーザーの皆様に安心してご利用いただけるよう、本Botは常に安全性を重視し、個人情報を扱わない設計を維持いたします。万が一、仕様変更があった際は本ページにて告知いたします。</p>
+</section>
 
-    <section>
-      <div class="section-title">
-        <img src="https://img.icons8.com/ios-glyphs/30/shield-cat.png" alt="安心安全" />
-        <span>セキュリティと継続的改善</span>
-      </div>
-      <p>ユーザーの皆様に安心してご利用いただけるよう、本Botは常に安全性を重視し、個人情報を扱わない設計を維持いたします。万が一、仕様変更があった際は本ページにて告知いたします。</p>
-    </section>
+<p>制定日：2025年6月1日<br>
+運営：soln</p>
 
-    <p>制定日：2025年6月1日<br>
-  </main>
-
-  <footer>
-    &copy; 2025 猫bot. All Rights Reserved.
-  </footer>
-
-</body>
+  </main>  <footer>
+    &copy; 2025 soln. All Rights Reserved.
+  </footer></body>
 </html>
